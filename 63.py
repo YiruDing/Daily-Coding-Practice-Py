@@ -10,6 +10,8 @@
 #  ['M', 'A', 'S', 'S']]
 # and the target word 'FOAM', you should return true, since it's the leftmost column. Similarly, given the target word 'MASS', you should return true, since it's the last row.
 
+
+# https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.geeksforgeeks.org%2Fsearch-a-word-in-a-2d-grid-of-characters%2F%3Ffbclid%3DIwAR2fpfRq-wV2jQy5mouu0f_PIv8qFBLxWFJtAhvWQPHmAfMcJapYS4uM9kM&h=AT2P-eMBzhJNfZcABpq35Erv7r1HmUgAIp9tlcEsvG4y3Vdtwcm92hXAG3ZhsikmfWD-0zA4FrCJyL4eA_M8tjHfx0n0HrSGF4A4ZtXAkJrK3C3kVOthxQY1XMUtyVy0sEQV_2hibnU
 class GFG:
     def __init__(self):
         self.R = None
@@ -54,3 +56,4 @@ if __name__ == '__main__':
         gfg.patternSearch(grid,'GEEKS')
         print('')
         gfg.patternSearch(grid,'EEE') 
+
