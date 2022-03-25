@@ -4,7 +4,7 @@ SIZE=8
 
 def showdata(data):
     for i in range(SIZE):
-        print('%3d' %data[i],end'')
+        print('%3d' %data[i], end='')
     print()
     
 def shell(data,size):
@@ -26,7 +26,7 @@ def shell(data,size):
         showdata(data)
         print('------------------------------------------')
         jmp=jmp//2
-        
+         
 def main():
     data=[16,25,39,27,12,8,45,63]
     print('The original list is : ')
