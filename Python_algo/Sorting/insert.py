@@ -26,7 +26,7 @@ def main():
     data=[16,25,39,27,12,8,45,63]
     print('The original list:')
     showdata(data)
-    inserdata(data)
+    insert(data)
     print('The result list is:')
     showdata(data)
     
